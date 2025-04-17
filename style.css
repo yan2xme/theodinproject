@@ -3,35 +3,19 @@
     }
     
     button.a {
-      padding: 2px 2px;
-      font-size: 20px;
+      font-size: 30px;
       border: none;
       background-color: transparent;
-      display: inline-block;
     }
-    
-    h1.em1 {
-      text-align: center;
-    }
-    
+
     div.space {
       margin-top: 30px;
     }
     
-    div.container-fluid {
-      background-size: 100% 100%;
-      background-attachment: local;
-    }
-    
-    .container {
-      background-color: transparent;
-      display: flex;
-      flex-direction: column;
-    }
-    
+
     .plum-box {
       position: relative;
-      background-color: pink;
+      background-color: #FAD9D9;
       margin: auto;
       height: 130px;
       width: 500px;
@@ -49,15 +33,52 @@
     
     }
     
-    .iframe {
-      justify-content: center;
-      position: relative;
+    .duvet {
+      width: 1000px;
+      height: 562px;
+      margin: 0% auto;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      display: block;
     }
     
     .imahe {
-        display: block;
+        width: 500px;
+        display: flex;
         justify-content: center;
         align-items: center;
-        margin: auto;
-        width: 50%;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(2, 500px);
+      justify-content: center;
+      background-color: pink;
+    }
+
+    .black-grid {
+      background-color: black;
+      width: 500px;
+      height: 500px;
+    }
+    
+    .pink-grid {
+      background-color: #FAD9D9;
+      width: 500px;
+      height: 500px;
+    }
+
+    .buts {
+      display: flex;
+      align-items: center;
+    }
+
+    footer {
+      background-image: url(/theodinproject/images/myfoot.jpg);
+      width: 1500px;
+      height: 300px;
+      text-align: center;
+
     }

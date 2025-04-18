@@ -51,11 +51,11 @@
         align-items: center;
     }
 
-    .grid-container {
+    .gridders {
       display: grid;
       grid-template-columns: repeat(2, 500px);
       justify-content: center;
-      background-color: pink;
+      background-color: #FAD9D9;
     }
 
     .black-grid {
@@ -75,10 +75,28 @@
       align-items: center;
     }
 
-    footer {
-      background-image: url(/theodinproject/images/myfoot.jpg);
-      width: 1500px;
-      height: 300px;
-      text-align: center;
-
+    .footlong {
+      width: auto;
+      height: 320px;
     }
+
+    img.footlong {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    
+    .footerie {
+      background-color: #FAD9D9;
+      text-align: end;
+      align-items: center;
+      width: auto;
+      height: 120px;
+      padding-right: 50px;
+    }
+
+      .bgimg {
+        background-image: url(images/bg.jpg);
+        height: 100%;
+        width: 100%;
+      }

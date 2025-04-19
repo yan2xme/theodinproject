@@ -12,7 +12,6 @@
       margin-top: 30px;
     }
     
-
     .plum-box {
       position: relative;
       background-color: #FAD9D9;
@@ -49,6 +48,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-repeat: no-repeat;
     }
 
     .gridders {
@@ -91,8 +91,8 @@
       text-align: end;
       align-items: center;
       width: auto;
-      height: 120px;
-      padding-right: 50px;
+      height: 7.5rem;
+      padding-right: 3.125rem;
     }
 
       .bgimg {
@@ -100,3 +100,107 @@
         height: 100%;
         width: 100%;
       }
+
+      img.sparkle-leftgrid {
+        float: right;
+        margin-right: -4rem;
+        width: 207px;
+        height: 190px;
+        position: relative;
+      }
+
+      img.sparkle-rightgrid {
+        float: left;
+        margin-left: -4rem;
+        width: 207px;
+        height: 190px;
+        position: relative;
+      }
+/* for font faces */
+
+@font-face {
+  font-family: TanMonCheri ;
+  src: url(/theodinproject/fonts/tan-mon-cheri.woff2);
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(/theodinproject/fonts/AvenirLTStd-Heavy.otf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(/theodinproject/fonts/AvenirLTStd-HeavyOblique.otf);
+  font-weight: bold;
+  font-style: oblique;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(/theodinproject/fonts/AvenirLTStd-Light.otf);
+  font-style: normal;
+  font-weight: light;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(/theodinproject/fonts/AvenirLTStd-LightOblique.otf);
+  font-style: oblique;
+  font-weight: light;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(/theodinproject/fonts/AvenirLTStd-Medium.otf);
+  font-style: normal;
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(/theodinproject/fonts/AvenirLTStd-MediumOblique.otf);
+  font-style: oblique;
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(/theodinproject/fonts/AvenirLTStd-Oblique.otf);
+  font-style: oblique;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Avenir;
+  src: url(/theodinproject/fonts/AvenirLTStd-Roman.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/* font sizes */
+ * {
+  font-family: Avenir;
+ }
+
+
+
+
+ h2 {
+  font-size: 1.875rem;
+ }
+
+ h3 {
+  font-size: 1.5rem;
+ }
+
+ h4 {
+  font-size: 1.25rem;
+ }
+
+ h5 {
+  font-size: 1.00rem;
+ }
+

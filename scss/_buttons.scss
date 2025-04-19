@@ -1,0 +1,9 @@
+/* for buttons */
+.btn-bd-primary {
+  --bs-btn-font-weight: normal
+  --bs-btn-color: var(bs-black)
+  --bs-btn-bg: var(--bs-white)
+  --bs-btn-border-color: var(bs-black)
+  --bs-btn-hover-color: var(bs-white)
+  --bs-btn-hover-bg: var(bs-black)
+}

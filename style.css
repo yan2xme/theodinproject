@@ -8,6 +8,13 @@
       background-color: transparent;
     }
 
+    button.b {
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+      padding-left: 1.5rem;
+    }
+
     div.space {
       margin-top: 30px;
     }
@@ -160,6 +167,30 @@
         padding: 2rem;
       }
 
+      .blog-content#inside {
+        padding: 4rem;
+      }
+
+      .blog-box {
+        width: 55rem;
+        height: auto;
+        background-color: #FAD9D9;
+        border: white solid 1px;
+        margin: auto;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+      }
+
+      .recent_post {
+        padding-left: 1rem;
+        display: inline-block;
+        font-weight: bold;
+      }
+
+
+
       .pfp {
         width: 3rem;
         height: 3rem;
@@ -169,7 +200,15 @@
         align-items: center;
       }
 
+      .paragraph {
+        text-align: justify;
+      }
 
+      .socmed {
+        display: inline-block;
+      }
+
+      
 
       
 /* for font faces */

@@ -208,7 +208,26 @@
         display: inline-block;
       }
 
-      
+      textarea {
+        width: 100%;
+        padding: 1rem 1rem;
+        border: 2px solid #ccc;
+        background-color: #f8f8f8;
+        resize: none;
+      }
+
+      ::placeholder {
+        color: black;
+        font-weight: bold;
+      }
+
+      button#publish{
+        float: right;
+        padding: 5px 1rem;
+        color: white;
+        border: none;
+        background-color: rgb(180, 8, 8);
+      }
 
       
 /* for font faces */

@@ -15,6 +15,12 @@
       padding-left: 1.5rem;
     }
 
+    button.c {
+      font-size: 20px;
+      border: none;
+      background-color: transparent;
+    }
+
     div.space {
       margin-top: 30px;
     }
@@ -200,10 +206,6 @@
         align-items: center;
       }
 
-      .paragraph {
-        text-align: justify;
-      }
-
       .socmed {
         display: inline-block;
       }
@@ -228,6 +230,17 @@
         border: none;
         background-color: rgb(180, 8, 8);
       }
+
+      .comment-cont {
+        margin-left: 4rem;
+        text-align: justify;
+      }
+
+      .comment#nested{
+        margin-left: 1rem;
+        border-left: 0.05rem solid rgba(0, 0, 0, 0.184);
+      }
+
 
       
 /* for font faces */

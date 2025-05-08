@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/a4941abd2e.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 
   <!-- navigation bar 4/13/2025-->
    
@@ -32,7 +32,7 @@
       <button class="btn btn btn-outline-dark bg-white" type="submit"> Search</button>
     </form>
   
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse" id="navbarNavDr-----opdown">
       <ul class="navbar-nav me-auto" st>
         <li class="nav-item">
           <a class="nav-link" aria-current="page" href="/index.html">
@@ -81,6 +81,22 @@
 
         <h1 style="font-family: TanMonCheri; font-weight: bold;"> Bringing Cheers to MNHS: EmbraceMinds Shares Uplifting Messages</h1>
         <br>
+
+        <!-- photo gallery -->
+        <div class="images">&times;
+          <img src="/images/Blog Photos/Article 1/first.jpg" alt="" width="300" height="200">
+          <img src="/images/Blog Photos/Article 1/second.jpg" alt="" width="300" height="200">
+          <img src="/images/Blog Photos/Article 1/third.jpg" alt="" width="300" height="200"> 
+        </div> 
+
+        <div id="image-viewer">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="full-image">
+        </div>
+
+      
+
+
         <!-- blog paragraph content -->
         <div class="paragraph">
             In an effort to boost the spirits of MNHS students, the EmbraceMinds initiative distributed leaflets adorned with uplifting quotes about mental health. The aim was to spread positivity and let students know they have support in navigating the challenges of high school.
@@ -172,6 +188,43 @@ In essence, the EmbraceMinds initiative, through the distribution of these leafl
                          </div>
                   </div>
                   </div>
+
+
+                  <!-- another nested reply comment with reply option probably-->
+                  
+                  <div class="comment" id="nested">
+                    <div> <img  class="pfp" src="/images/logo.png">
+                      <div style="margin-top: .8rem;">
+                          <p style="margin-bottom: -1rem;"> EmbraceMinds<p>
+                          <p style="font-size: smaller;">a few seconds ago</p>
+                        </div>
+                        
+                         <div class="comment-cont">
+                          <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur iusto nam et voluptatum, fugit sapiente maxime animi itaque odio laborum minus numquam exercitationem aperiam architecto vitae consectetur doloribus. Ipsam, ea.</p>
+                          <div style="display: inline-block;">
+                            <button type="button" class="c icons fa fa-heart-o"></button>
+                          <span>Like</span>
+                          <button style="margin-left: 1rem;" type="button" class="c icons far fa-comment-dots"></button>
+                          <span>Comment</span>
+                          </div>
+                          <hr style="border-top: 0.05rem solid;">
+                          
+                          <!-- the nested "Write a comment" placeholder-->
+
+                          <form>
+                            <textarea placeholder="Write a comment..." ></textarea>
+                            <div style="padding-top: 10px;">
+                              <img style="margin-top: -.5rem;" class="pfp" src="/images/logo.png"> 
+                              Commenting as <span class="anonymous"> <Input style="margin-left: 1rem;"></Input></span>
+                              <button type="button" id="publish"> Publish</button> 
+                            </div>
+                          </form>
+                          <br>
+
+                         </div>
+                  </div>
+                  </div>
+                
                 
 
                   <hr style="border-top: 0.05rem solid;">
@@ -198,12 +251,34 @@ In essence, the EmbraceMinds initiative, through the distribution of these leafl
 
                   <!-- nested comment -->
 
-
                   <hr style="border-top: 0.05rem solid;">
                  </div>
           </div>
           </div>
 
+          <div class="comment">
+            <div> <img  class="pfp" src="/images/logo.png">
+              <div style="margin-top: .8rem;">
+                  <p style="margin-bottom: -1rem;"> EmbraceMinds<p>
+                  <p style="font-size: smaller;">a few seconds ago</p>
+                </div>
+                
+                
+                 <div class="comment-cont">
+                  <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur iusto nam et voluptatum, fugit sapiente maxime animi itaque odio laborum minus numquam exercitationem aperiam architecto vitae consectetur doloribus. Ipsam, ea.</p>
+                  <div style="display: inline-block;">
+                    <button type="button" class="c icons fa fa-heart-o"></button>
+                  <span>Like</span>
+                  <button style="margin-left: 1rem;" type="button" class="c icons far fa-comment-dots"></button>
+                  <span>Comment</span>
+                  </div>
+
+                  <!-- nested comment -->
+
+                  <hr style="border-top: 0.05rem solid;">
+                 </div>
+          </div>
+          </div>
 
 
         </div>

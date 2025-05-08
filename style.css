@@ -246,62 +246,62 @@
 /* for font faces */
 
 @font-face {
-  font-family: TanMonCheri ;
-  src: url(/theodinproject/fonts/tan-mon-cheri.woff2);
+  font-family: TanMonCheri;
+  src: url(/fonts/tan-mon-cheri.woff2);
 }
 
 @font-face {
   font-family: Avenir;
-  src: url(/theodinproject/fonts/AvenirLTStd-Heavy.otf);
+  src: url(/fonts/AvenirLTStd-Heavy.otf);
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: Avenir;
-  src: url(/theodinproject/fonts/AvenirLTStd-HeavyOblique.otf);
+  src: url(/fonts/AvenirLTStd-HeavyOblique.otf);
   font-weight: bold;
   font-style: oblique;
 }
 
 @font-face {
   font-family: Avenir;
-  src: url(/theodinproject/fonts/AvenirLTStd-Light.otf);
+  src: url(/fonts/AvenirLTStd-Light.otf);
   font-style: normal;
   font-weight: light;
 }
 
 @font-face {
   font-family: Avenir;
-  src: url(/theodinproject/fonts/AvenirLTStd-LightOblique.otf);
+  src: url(/fonts/AvenirLTStd-LightOblique.otf);
   font-style: oblique;
   font-weight: light;
 }
 
 @font-face {
   font-family: Avenir;
-  src: url(/theodinproject/fonts/AvenirLTStd-Medium.otf);
+  src: url(/fonts/AvenirLTStd-Medium.otf);
   font-style: normal;
   font-weight: medium;
 }
 
 @font-face {
   font-family: Avenir;
-  src: url(/theodinproject/fonts/AvenirLTStd-MediumOblique.otf);
+  src: url(/fonts/AvenirLTStd-MediumOblique.otf);
   font-style: oblique;
   font-weight: medium;
 }
 
 @font-face {
   font-family: Avenir;
-  src: url(/theodinproject/fonts/AvenirLTStd-Oblique.otf);
+  src: url(/fonts/AvenirLTStd-Oblique.otf);
   font-style: oblique;
   font-weight: normal;
 }
 
 @font-face {
   font-family: Avenir;
-  src: url(/theodinproject/fonts/AvenirLTStd-Roman.otf);
+  src: url(/fonts/AvenirLTStd-Roman.otf);
   font-style: normal;
   font-weight: normal;
 }

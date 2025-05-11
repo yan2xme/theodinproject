@@ -244,11 +244,6 @@
 
       /* forda image gallery na anteh */
 
-      img {
-        border-radius: 5px;
-        cursor: pointer;
-        transition: 0.3s;
-      }
 
       img:hover {opacity: 0.7;}
 
@@ -268,7 +263,6 @@
       }
 
       .modal-content {
-        vertical-align: middle;
         margin: auto;
         padding: 3rem;
         display: block;
@@ -308,7 +302,54 @@
           width: 100%;
         }
       }
-        
+       
+      
+      .images {
+        display: flex;
+        justify-content:space-evenly;
+        cursor: pointer;
+        transition: 0.3s;
+        align-self: center;
+      }
+
+      .images > img {
+        border-radius: 5px;
+        object-fit: cover;
+      }
+
+
+      /* for text hover */
+      .texthover {
+        font-weight: bold; 
+        color: black;
+        text-decoration: none;
+      }
+
+      .texthover:hover{
+        color: rgb(180, 8, 8);
+      }
+
+      .allpost {
+        text-align: center;
+        margin: 1rem;
+      }
+
+      
+      .title_link {
+        color: black;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      .title_link > p {
+      font-weight: normal;
+      }
+
+      .title_link :hover {
+        color:  rgb(180, 8, 8);
+      }
+
+    
 /* for font faces */
 
 @font-face {

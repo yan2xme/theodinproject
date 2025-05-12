@@ -349,6 +349,44 @@
         color:  rgb(180, 8, 8);
       }
 
+      
+/* for gallery */
+.head_gal {
+height: 150px;
+width: auto;
+background-image: url(/images/bg.jpg);
+background-position: center;
+background-size:auto
+}
+
+
+.gal_text {
+  font-family: TanMonCheri;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.gal{
+  text-align: center;
+  padding: 2.5rem;
+}
+
+.embrace{
+  text-align: left;
+  padding-top: 3rem;
+  padding-left: min(15%, 1rem);
+  padding-left: max(25%, 8rem);
+  padding-right: max(20%);
+}
+
+.em_one {
+  width: auto;
+  height: 400px;
+  background: #FAD9D9;
+  background: linear-gradient(153deg, rgba(250, 217, 217, 1) 40%, rgba(176, 239, 255, 1) 100%);
+}
+
+
     
 /* for font faces */
 
@@ -412,7 +450,6 @@
   font-style: normal;
   font-weight: normal;
 }
-
 
 /* font sizes */
  * {

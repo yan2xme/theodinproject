@@ -356,7 +356,7 @@ height: 150px;
 width: auto;
 background-image: url(/images/bg.jpg);
 background-position: center;
-background-size:auto
+background-size:cover
 }
 
 
@@ -364,6 +364,16 @@ background-size:auto
   font-family: TanMonCheri;
   font-size: 4rem;
   font-weight: bold;
+}
+
+.gal_text#one{
+  font-size: 3.5rem;
+}
+
+.normal {
+  font-family: TanMonCheri;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 
 .gal{
@@ -376,18 +386,127 @@ background-size:auto
   padding-top: 3rem;
   padding-left: min(15%, 1rem);
   padding-left: max(25%, 8rem);
-  padding-right: max(20%);
+  padding-right: max(30%);
 }
 
 .em_one {
   width: auto;
-  height: 400px;
+  height: auto;
+  padding-bottom: 2rem;
   background: #FAD9D9;
   background: linear-gradient(153deg, rgba(250, 217, 217, 1) 40%, rgba(176, 239, 255, 1) 100%);
 }
 
+.photocont {
+  width: 760px;
+  height: 400px;
+  background-size: cover;
+}
 
-    
+.photocont#one {
+  background-image: url(/images/blogphoto/Gallery/1.png);
+}
+
+.photocont#two {
+  background-image: url(/images/blogphoto/Gallery/2.png);
+  margin-left: 17rem;
+  margin-top: -2rem;
+}
+
+.photocont#three {
+  background-image: url(/images/blogphoto/Gallery/3.png);
+  margin-top: -2rem;
+}
+
+.photocont#four {
+  background-image: url(/images/blogphoto/Gallery/4.png);
+  margin-left: 15rem;
+  margin-top: -2rem;
+}
+
+.photocont#five {
+  background-image: url(/images/blogphoto/Gallery/5.png);
+  margin-top: -2rem;
+}
+
+
+.photocont#six {
+  background-image: url(/images/blogphoto/Gallery/6.png);
+  background-position-y: -80px;
+  margin-left: 15rem;
+  margin-top: -2rem;
+}
+
+.photocont#seven {
+  width: 62.5rem;
+  background-image: url(/images/blogphoto/Gallery/7.png);
+  background-position-y: 30%;
+  margin-top: 2rem;
+}
+
+.photocont#eight {
+  background-image: url(/images/blogphoto/Gallery/8.png);
+}
+
+.photocont#nine {
+  background-image: url(/images/blogphoto/Gallery/9.png);
+  margin-left: 17rem;
+  margin-top: -2rem;
+}
+
+.photocont#ten {
+  background-image: url(/images/blogphoto/Gallery/10.png);
+  margin-top: -2rem;
+}
+
+.photocont#eleven {
+  background-image: url(/images/blogphoto/Gallery/11.jpg);
+  margin-left: 15rem;
+  margin-top: -2rem;
+}
+
+.photocont#twelve {
+  background-image: url(/images/blogphoto/Gallery/12.png);
+  margin-top: -2rem;
+}
+
+
+.photocont#thirteen {
+  background-image: url(/images/blogphoto/Gallery/13.png);
+  background-position-y: -80px;
+  margin-left: 15rem;
+  margin-top: -2rem;
+}
+
+.photocont#fourteen {
+  width: 62.5rem;
+  background-image: url(/images/blogphoto/Gallery/14.png);
+  background-position-y: 30%;
+  margin-top: 2rem;
+}
+
+img.leaflet{
+  height: 28rem;
+  width: auto;
+  float: right;
+  position: absolute;
+  margin-left: 710px;
+  margin-top: -120px;
+}
+
+
+.rotate {
+  transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in;
+  transition: opacity 250ms ease-in, transform 400ms ease-in, -webkit-transform 400ms ease-in;
+  opacity: 0;
+}
+
+.rotate.appear {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
 /* for font faces */
 
 @font-face {

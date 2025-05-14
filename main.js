@@ -1,8 +1,9 @@
 const faders = document.querySelectorAll(".fade-in");
+const rotate = document.querySelectorAll(".rotate");
 
 const appearOptions = {
     threshold: 0,
-    rootMargin: "0px 0px -300px 0px"
+    rootMargin: "0px 0px -50px 0px"
 };
 
 const appearOnScroll = new IntersectionObserver(function(
@@ -20,9 +21,17 @@ const appearOnScroll = new IntersectionObserver(function(
 },
 appearOptions);
 
+
 faders.forEach(fader => {
     appearOnScroll.observe(fader);
 });
+
+
+rotate.forEach(rotat => {
+    appearOnScroll.observe(rotat);
+});
+
+
 
 
 $(".images img").click(function(){

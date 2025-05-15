@@ -507,7 +507,89 @@ img.leaflet{
   transform: translateX(0);
   opacity: 1;
 }
+
+/* authors portion */
+
+.crew {
+  width: auto;
+  height: 120rem;
+  background-image: url(/images/blogphoto/authors/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.fontcrew {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+img#one {
+  position: absolute;
+  width: 40rem;
+  height: auto;
+  margin-top: 15rem;
+}
+
+img#two {
+  position: absolute;
+  width: 50rem;
+  height: auto;
+}
+
+img#three {
+  position: absolute;
+  width: 13rem;
+  margin-left: 20rem;
+  margin-top: 22rem;
+}
+
+/* profile cards */
+
+.pfp {
+  margin-top: 25rem;
+}
+
+
+.pfpcards {
+  margin: 10rem;
+  width: 450px;
+  height: 470px;
+  background-color: white;
+  border-radius: 5rem;
+}
+
+.pfpcards#klentot{
+  background-image: url(/images/blogphoto/authors/klentot.jpg);
+  background-size: cover;
+}
+
+.bot{
+  position: absolute;
+  margin-top: 350px;
+  width: 450px;
+  height: 120px;
+  background:
+  radial-gradient(circle at 8.75% 94.17%, #FF4DAF 0%, rgba(255,77,175,0) 35%),
+  radial-gradient(circle at 58.75% 55.83%, #FFA6D7 0%, rgba(255,166,215,0) 35%),
+  radial-gradient(circle at 94.35% 89.62%, #FFA6D7 0%, rgba(255,166,215,0) 40%),
+  radial-gradient(circle at 6.50% 84.04%, rgba(250,217,217,0.99) 0%, rgba(250,217,217,0) 50%),
+  radial-gradient(circle at 6.17% 12.62%, rgba(255,77,175,0.23) 0%, rgba(255,77,175,0) 70%),
+  radial-gradient(circle at 93.69% 11.43%, #825CA7 0%, rgba(130,92,167,0) 70%),
+  radial-gradient(circle at 48.90% 49.52%, #FAD9D9 0%, rgba(250,217,217,0) 100%);
+  background-color: white;
+  border-radius: 0 0 5rem 5rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
 /* for font faces */
+
 
 @font-face {
   font-family: TanMonCheri;

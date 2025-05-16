@@ -494,25 +494,11 @@ img.leaflet{
   margin-top: -120px;
 }
 
-
-.rotate {
-  transition: opacity 250ms ease-in, -webkit-transform 400ms ease-in;
-  transition: opacity 250ms ease-in, transform 400ms ease-in;
-  transition: opacity 250ms ease-in, transform 400ms ease-in, -webkit-transform 400ms ease-in;
-  opacity: 0;
-}
-
-.rotate.appear {
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-  opacity: 1;
-}
-
 /* authors portion */
 
 .crew {
   width: auto;
-  height: 120rem;
+  height: auto;
   background-image: url(/images/blogphoto/authors/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -547,16 +533,18 @@ img#three {
 
 /* profile cards */
 
-.pfp {
-  margin-top: 25rem;
+.pf {
+  margin-top: 35rem;
+  display: grid;
+  justify-content: center;
+  gap: 50px;
+  grid-template-columns: repeat(auto-fit,350px)
 }
 
 
 .pfpcards {
-  margin: 10rem;
-  width: 450px;
-  height: 470px;
-  background-color: white;
+  width: 350px;
+  height: 370px;
   border-radius: 5rem;
 }
 
@@ -565,10 +553,34 @@ img#three {
   background-size: cover;
 }
 
+.pfpcards#jil{
+  background-image: url(/images/blogphoto/authors/jil.jpg);
+  background-size: cover;
+}
+
+.pfpcards#bay{
+  background-image: url(/images/blogphoto/authors/bay.jpg);
+  background-size: cover;
+}
+
+.pfpcards#kier{
+  background-image: url(/images/blogphoto/authors/kier.jpg);
+  background-size: cover;
+}
+
+.pfpcards#sam{
+  background-image: url(/images/blogphoto/authors/sam.jpg);
+  background-size: cover;
+}
+
+.pfpcards#harrie{
+  background-image: url(/images/blogphoto/authors/harrie.jpg);
+  background-size: cover;
+}
+
 .bot{
-  position: absolute;
-  margin-top: 350px;
-  width: 450px;
+  margin-top: 250px;
+  width: 350px;
   height: 120px;
   background:
   radial-gradient(circle at 8.75% 94.17%, #FF4DAF 0%, rgba(255,77,175,0) 35%),
@@ -584,7 +596,6 @@ img#three {
   padding-top: 1rem;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
 }
 
 

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    // Your JavaScript goes here!
+
+
+    function add7 () {
+      let a = Number(prompt("What is your first number"));
+      ans = a + 7;
+      const answer = 'The final answer is ' + ans;
+
+      alert(answer);
+    }
+
+    add7();
+
+
+    function multiply () {
+      let a = Number(prompt("What is your first number"));
+      let b = Number(prompt("What is your second number"));
+      ans = a + 7;
+      const answer = 'The final answer is ' + ans;
+      alert(ans);
+    }
+
+    multiply();
+
+    
+    function capitalize() {
+      let word = prompt("What is your word you want to capitalize only its first letter?");
+      let first = word.charAt(0).toUpperCase();
+      let rest = word.slice(1,word.length).toLowerCase();
+      nw = first + rest;
+      const answer = 'The output word is: ' + nw;
+      alert(answer);
+    }
+
+    capitalize();
+
+    function lastLetter() {
+      let word = prompt("What is your word?");
+      let last = word.charAt(word.length-1);
+      const answer = 'The last letter of the word ' + word + " is " + last;
+      alert(answer);
+    }
+
+    lastLetter();
+
+    
+    
+  </script>
+
+</body>
+</html>
